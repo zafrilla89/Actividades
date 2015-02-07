@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="array_profesores">
+            <item>Marcos</item>
+            <item>Pedro</item>
+            <item>Ana</item>
+            <item>Alicia</item>
+            <item>Juan</item>
+            <item>Lidia</item>
+        </string-array>
+
+        <string-array name="array_grupos">
+            <item>1 eso</item>
+            <item>2 eso</item>
+            <item>3 eso</item>
+            <item>4 eso</item>
+            <item>1 bachillerato</item>
+            <item>2 bachillerato</item>
+        </string-array>
+
+        <string-array name="array_departamentos">
+            <item>Ingles</item>
+            <item>Historia</item>
+            <item>Lengua</item>
+            <item>Informatica</item>
+            <item>Religion</item>
+            <item>Matematicas</item>
+        </string-array>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.izv.android.actividadesinstituto" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Principal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Anadir"
+            android:label="@string/title_activity_anadir" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Detalle"
+            android:label="@string/title_activity_detalle" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Secundariagrupo"
+            android:label="@string/title_activity_secundariagrupo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Secundariafechas"
+            android:label="@string/title_activity_secundariafechas"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Modificar"
+            android:label="@string/title_activity_modificar" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.ProfesoresAgregados"
+            android:label="@string/title_activity_profesores_agregados" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.Listaprofesor"
+            android:label="@string/title_activity_listaprofesor" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.GruposAgregados"
+            android:label="@string/title_activity_grupos_agregados" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.ListaGrupos"
+            android:label="@string/title_activity_lista_grupos" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.AgregarProfesores"
+            android:label="@string/title_activity_agregar_profesores" >
+        </activity>
+        <activity
+            android:name="com.izv.android.actividadesinstituto.AgregarGrupos"
+            android:label="@string/title_activity_agregar_grupos" >
+        </activity>
+    </application>
+
+</manifest>

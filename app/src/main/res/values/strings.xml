@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IES Zaidin Vergeles</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_anadir">Anadir actividad</string>
+    <string name="complementaria">Complementaria</string>
+    <string name="extraescolar">Extraescolar</string>
+    <string name="profesor">Profesor/es</string>
+    <string name="grupo">Grupo/s</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="departamento">Departamento</string>
+    <string name="fecha">Fecha</string>
+    <string name="lugar">Lugar</string>
+    <string name="hora_inicio">Hora inicio</string>
+    <string name="hora_fin">Hora fin</string>
+    <string name="fecha_salida">Fecha salida</string>
+    <string name="fecha_llegada">Fecha llegada</string>
+    <string name="hora_salida">Hora salida</string>
+    <string name="hora_llegada">Hora llegada</string>
+    <string name="lugas_salida">Lugar salida</string>
+    <string name="lugar_llegada">Lugar llegada</string>
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_detalle">Detalle</string>
+    <string name="title_activity_secundariagrupo">Actividades</string>
+    <string name="title_activity_secundariafechas">Actividades</string>
+    <string name="agregar_profesor">Agregar profesor</string>
+    <string name="agregar_grupo">Agregar grupos</string>
+    <string name="agregar_departamentos">Agregar departamentos</string>
+    <string name="editar">EDITAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="title_activity_modificar">Modificar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profesores_agregados">ProfesoresAgregados</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="title_activity_listaprofesor">Listaprofesor</string>
+    <string name="profesores">PROFESORES</string>
+    <string name="Agregarprofesores">AGREGAR PROFESORES</string>
+    <string name="title_activity_grupos_agregados">GruposAgregados</string>
+    <string name="title_activity_lista_grupos">ListaGrupos</string>
+    <string name="grupos">GRUPOS</string>
+    <string name="agregargrupos">AGREGAR GRUPOS</string>
+    <string name="title_activity_agregar_profesores">AgregarProfesores</string>
+    <string name="title_activity_agregar_grupos">AgregarGrupos</string>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tabHost"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:weightSum="1">
+
+                        <fragment
+                            android:layout_width="175dp"
+                            android:layout_height="fill_parent"
+                            android:name="com.izv.android.actividadesinstituto.Fragmentoactividades1"
+                            android:id="@+id/ffecha"
+                            tools:layout="@layout/fragmentoactividades1" />
+
+
+                        <fragment
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:name="com.izv.android.actividadesinstituto.Fragmentoactividades2"
+                            android:id="@+id/ffechavista"
+                            tools:layout="@layout/fragmentoactividades2"
+                            android:layout_weight="1.18" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <fragment
+                            android:layout_width="175dp"
+                            android:layout_height="fill_parent"
+                            android:name="com.izv.android.actividadesinstituto.Fragmentogrupo1"
+                            android:id="@+id/fgrupo"
+                            tools:layout="@layout/fragmentogrupo1"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"/>
+
+
+                        <fragment
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:name="com.izv.android.actividadesinstituto.Fragmentogrupo2"
+                            android:id="@+id/fgrupovista"
+                            tools:layout="@layout/fragmentogrupo2"
+                            android:layout_marginTop="5dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
