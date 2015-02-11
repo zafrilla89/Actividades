@@ -114,7 +114,6 @@ public class AgregarGrupos extends Activity {
             return r;
         }
 
-
         @Override
         protected void onPostExecute(String r) {
             super.onPostExecute(r);

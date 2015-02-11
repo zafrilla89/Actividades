@@ -372,7 +372,7 @@ public class Anadir extends Activity implements AdapterView.OnItemSelectedListen
     public void obtenerfecha(View view){
         Date d=new Date();
         DatePickerDialog dpd = new DatePickerDialog(this,
-                new ObtenerFecha(), d.getYear()+1900, d.getMonth(), d.getDay()+1);
+                new ObtenerFecha(), d.getYear()+1900, d.getMonth(), d.getDate());
         dpd.show();
     }
 
@@ -389,7 +389,7 @@ public class Anadir extends Activity implements AdapterView.OnItemSelectedListen
     public void fechasalida(View view){
         Date d=new Date();
         DatePickerDialog dpd = new DatePickerDialog(this,
-                new ObtenerFechaSalida(),  d.getYear()+1900, d.getMonth(), d.getDay()+1);
+                new ObtenerFechaSalida(),  d.getYear()+1900, d.getMonth(), d.getDate());
         dpd.show();
     }
 
@@ -406,7 +406,7 @@ public class Anadir extends Activity implements AdapterView.OnItemSelectedListen
     public void fechallegada(View view){
         Date d=new Date();
         DatePickerDialog dpd = new DatePickerDialog(this,
-                new ObtenerFechaLlegada(), d.getYear()+1900, d.getMonth(), d.getDay()+1);
+                new ObtenerFechaLlegada(), d.getYear()+1900, d.getMonth(), d.getDate());
         dpd.show();
     }
     public class ObtenerFechaLlegada implements
@@ -458,15 +458,12 @@ public class Anadir extends Activity implements AdapterView.OnItemSelectedListen
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
     class PostRestfull extends AsyncTask<Parametros,Void,String> {
-
         @Override
         protected String doInBackground(Parametros[] params) {
             id=ClienteRestFul.post(params[0].url,params[0].jsonObject);
 
             return id;
         }
-
-
         @Override
         protected void onPostExecute(String r) {
             super.onPostExecute(r);
